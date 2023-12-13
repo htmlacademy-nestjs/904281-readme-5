@@ -21,7 +21,4 @@ export class UserRdo {
 
   @Expose()
   public subscribers: string[]
-
-  @Expose()
-  public password: string[]
 }

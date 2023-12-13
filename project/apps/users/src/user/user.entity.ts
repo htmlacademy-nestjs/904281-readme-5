@@ -1,7 +1,7 @@
 import {compare, genSalt, hash} from 'bcrypt'
 import { randomUUID } from 'node:crypto'
 import { User as UserEntity } from "./user.interface";
-import { CreateUserDto } from "./create-user.dto";
+import { CreateUserDto } from "./dto";
 import { SALT_ROUNDS } from "./constants";
 
 type UserIdType = UserEntity['id']

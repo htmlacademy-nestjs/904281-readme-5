@@ -1,4 +1,4 @@
-import {User} from "./user.interface";
+import { User } from "../user.interface";
 
 type UserDto = Pick<User, 'mail' | 'login' | 'password' | 'photo'>
 
